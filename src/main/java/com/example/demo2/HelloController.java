@@ -20,10 +20,6 @@ public class HelloController implements Initializable {
         cardDisplay.setText(planets.getCurrentCard().getPrompt());
     }
 
-    @FXML
-    protected void onHelloButtonClick() {
-        System.out.println("Hello!");
-    }
 
     private void populatePlanets() {
         String[] planetsList = {"venus", "mercury", "earth", "mars", "saturn", "jupiter", "neptune", "uranus"};
